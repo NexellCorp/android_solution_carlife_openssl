@@ -64,9 +64,9 @@ common_src_files := \
   ssl/tls_srp.c \
 
 common_c_includes := \
-  external/openssl/. \
-  external/openssl/crypto \
-  external/openssl/include \
+  device/nexell/solution/carlife/openssl/. \
+  device/nexell/solution/carlife/openssl/crypto \
+  device/nexell/solution/carlife/openssl/include \
 
 arm_cflags :=
 
