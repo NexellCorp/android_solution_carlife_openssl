@@ -533,13 +533,13 @@ common_src_files := \
   crypto/x509v3/v3err.c \
 
 common_c_includes := \
-  external/openssl/. \
-  external/openssl/crypto \
-  external/openssl/crypto/asn1 \
-  external/openssl/crypto/evp \
-  external/openssl/crypto/modes \
-  external/openssl/include \
-  external/openssl/include/openssl \
+  device/nexell/solution/carlife/openssl/. \
+  device/nexell/solution/carlife/openssl/crypto \
+  device/nexell/solution/carlife/openssl/crypto/asn1 \
+  device/nexell/solution/carlife/openssl/crypto/evp \
+  device/nexell/solution/carlife/openssl/crypto/modes \
+  device/nexell/solution/carlife/openssl/include \
+  device/nexell/solution/carlife/openssl/include/openssl \
 
 arm_cflags := \
   -DAES_ASM \
